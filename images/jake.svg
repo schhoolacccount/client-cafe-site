@@ -1,0 +1,40 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="100" fill="#E8F4EC"/>
+  <!-- shirt -->
+  <ellipse cx="100" cy="178" rx="52" ry="22" fill="#E07B54"/>
+  <!-- neck -->
+  <rect x="84" y="136" width="32" height="28" rx="6" fill="#F2D5B8"/>
+  <!-- face -->
+  <ellipse cx="100" cy="98" rx="38" ry="42" fill="#F2D5B8"/>
+  <!-- messy hair back -->
+  <ellipse cx="100" cy="62" rx="42" ry="34" fill="#8B3A10"/>
+  <!-- hair tufts -->
+  <ellipse cx="68" cy="54" rx="14" ry="11" fill="#8B3A10"/>
+  <ellipse cx="84" cy="46" rx="13" ry="10" fill="#A0440F"/>
+  <ellipse cx="102" cy="44" rx="14" ry="10" fill="#8B3A10"/>
+  <ellipse cx="120" cy="46" rx="13" ry="10" fill="#A0440F"/>
+  <ellipse cx="134" cy="54" rx="14" ry="11" fill="#8B3A10"/>
+  <!-- hair sides -->
+  <ellipse cx="64" cy="86" rx="12" ry="20" fill="#8B3A10"/>
+  <ellipse cx="136" cy="86" rx="12" ry="20" fill="#8B3A10"/>
+  <!-- eyes -->
+  <ellipse cx="86" cy="96" rx="8" ry="8.5" fill="white"/>
+  <ellipse cx="114" cy="96" rx="8" ry="8.5" fill="white"/>
+  <circle cx="87" cy="97" r="6" fill="#3B5E2B"/>
+  <circle cx="115" cy="97" r="6" fill="#3B5E2B"/>
+  <circle cx="89" cy="95" r="2" fill="white"/>
+  <circle cx="117" cy="95" r="2" fill="white"/>
+  <!-- brows -->
+  <path d="M78 85 Q86 82 93 85" stroke="#6B2A08" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+  <path d="M107 85 Q114 82 122 85" stroke="#6B2A08" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+  <!-- nose -->
+  <ellipse cx="100" cy="110" rx="5" ry="4" fill="#DDB896"/>
+  <!-- grin -->
+  <path d="M85 122 Q100 136 115 122" stroke="#B05030" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M88 125 Q100 134 112 125" fill="white" opacity="0.65"/>
+  <!-- freckles -->
+  <circle cx="78" cy="112" r="2" fill="#C07040" opacity="0.6"/>
+  <circle cx="84" cy="118" r="2" fill="#C07040" opacity="0.6"/>
+  <circle cx="115" cy="118" r="2" fill="#C07040" opacity="0.6"/>
+  <circle cx="122" cy="112" r="2" fill="#C07040" opacity="0.6"/>
+</svg>

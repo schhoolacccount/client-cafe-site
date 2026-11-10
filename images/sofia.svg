@@ -1,0 +1,36 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="100" cy="100" r="100" fill="#FFF3E0"/>
+  <!-- shirt -->
+  <ellipse cx="100" cy="178" rx="52" ry="22" fill="#6C5CE7"/>
+  <!-- hair back wavy (behind face) -->
+  <ellipse cx="100" cy="64" rx="46" ry="38" fill="#1A0A2E"/>
+  <ellipse cx="58" cy="100" rx="18" ry="44" fill="#1A0A2E"/>
+  <ellipse cx="142" cy="100" rx="18" ry="44" fill="#1A0A2E"/>
+  <!-- wavy strands -->
+  <path d="M142 76 Q158 92 148 112 Q162 130 146 148" stroke="#2D1557" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <path d="M58 76 Q42 92 52 112 Q38 130 54 148" stroke="#2D1557" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <!-- neck -->
+  <rect x="84" y="136" width="32" height="28" rx="6" fill="#D4A574"/>
+  <!-- face -->
+  <ellipse cx="100" cy="98" rx="38" ry="42" fill="#D4A574"/>
+  <!-- eyes -->
+  <ellipse cx="86" cy="96" rx="8.5" ry="8" fill="white"/>
+  <ellipse cx="114" cy="96" rx="8.5" ry="8" fill="white"/>
+  <circle cx="87" cy="97" r="6" fill="#1A0A2E"/>
+  <circle cx="115" cy="97" r="6" fill="#1A0A2E"/>
+  <circle cx="89" cy="95" r="2" fill="white"/>
+  <circle cx="117" cy="95" r="2" fill="white"/>
+  <!-- brows arched -->
+  <path d="M78 85 Q87 80 94 84" stroke="#1A0A2E" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+  <path d="M106 84 Q113 80 122 85" stroke="#1A0A2E" stroke-width="2.8" fill="none" stroke-linecap="round"/>
+  <!-- nose -->
+  <path d="M96 106 Q100 112 104 106" stroke="#B8845A" stroke-width="2.2" fill="none" stroke-linecap="round"/>
+  <!-- smile -->
+  <path d="M87 122 Q100 132 113 122" stroke="#A0623A" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- cheeks -->
+  <ellipse cx="74" cy="113" rx="11" ry="8" fill="#E8886A" opacity="0.35"/>
+  <ellipse cx="126" cy="113" rx="11" ry="8" fill="#E8886A" opacity="0.35"/>
+  <!-- earrings -->
+  <circle cx="58" cy="106" r="4" fill="#FFB347"/>
+  <circle cx="142" cy="106" r="4" fill="#FFB347"/>
+</svg>

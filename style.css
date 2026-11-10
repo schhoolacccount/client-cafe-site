@@ -1,0 +1,239 @@
+/* Site colours */
+:root {
+  --main-colour: #2f5d50;
+  /* eucalyptus green - header, footer */
+  --accent-colour: #e8b931;
+  /* wattle yellow - navigation bar */
+  --background: #fbfaf6;
+  /* page background */
+  --text-colour: #222222;
+  /* normal text */
+  --light-text: #ffffff;
+  /* text on green areas */
+}
+
+
+/* Base page styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background);
+  color: var(--text-colour);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/* Header and home logo */
+header {
+  background-color: var(--main-colour);
+  padding: 15px 20px;
+  text-align: center;
+}
+
+/* The logo is a link back to the Home page */
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--light-text);
+  text-decoration: none;
+}
+
+.logo img {
+  height: 90px;
+  width: auto;
+}
+
+.logo span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+
+/* Navigation */
+nav {
+  background-color: var(--accent-colour);
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  display: block;
+  padding: 14px 20px;
+  color: var(--text-colour);
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+
+nav a:hover,
+nav a:focus {
+  background-color: var(--main-colour);
+  color: var(--light-text);
+}
+
+/* Highlight the page you are currently on */
+nav a.active {
+  background-color: var(--main-colour);
+  color: var(--light-text);
+}
+
+
+/* Main content layout */
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  min-height: 60vh;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+
+/* Contact form */
+.contact-form {
+  width: 100%;
+  max-width: 560px;
+  margin: 24px auto;
+}
+
+.contact-form label {
+  display: block;
+  margin: 16px 0 6px;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #78847d;
+  background: #fff;
+  color: var(--text-colour);
+  font: inherit;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  margin-top: 16px;
+}
+
+/* Menu items */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+  gap: 20px;
+}
+
+.menu-item {
+  padding: 14px;
+  border: 1px solid #d8ded8;
+  background: #fff;
+}
+
+.menu-item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.menu-item h2 {
+  margin-bottom: 6px;
+}
+
+.menu-price {
+  margin-bottom: 0;
+  font-weight: bold;
+}
+
+/* Opening hours table */
+.hours-note {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.opening-hours {
+  width: 100%;
+  max-width: 560px;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.opening-hours th,
+.opening-hours td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #d8ded8;
+}
+
+/* Staff profiles */
+.staff-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: 24px;
+}
+
+.staff-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.staff-card img {
+  flex: 0 0 96px;
+  width: 96px;
+  height: 96px;
+}
+
+.staff-card h3 {
+  margin: 0 0 6px;
+}
+
+.staff-card p,
+.about-note {
+  margin-top: 0;
+}
+
+.about-note {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+
+/* Page footer */
+footer {
+  background-color: var(--main-colour);
+  color: var(--light-text);
+  text-align: center;
+  padding: 20px;
+}
